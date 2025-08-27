@@ -39,7 +39,7 @@ source <environment_name_without_qoutes>/bin/activate # activates the environmen
 
 On Windows (PowerShell):
 ```powershell
-python -m venv your_environment_name_without_qoutes  # this creates the virtual envirnment (takes upto 1 min) replace placeholder with your choice of virtual env name
+python3.11 -m venv your_environment_name_without_qoutes  # this creates the virtual envirnment (takes upto 1 min) replace placeholder with your choice of virtual env name
 your_environment_name_without_qoutes\Scripts\activate  # activates the environment you can see the environment name in terminal
 ```
 To deactivate:
