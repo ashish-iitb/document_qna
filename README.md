@@ -20,9 +20,10 @@ mkdir pdfs
 ```
 ### 3. Install Python 3.10 or above
 
-Make sure you have Python 3.11 installed.
+Make sure you have Python 3.10 or above version is installed, 
 if not download it from https://www.python.org/downloads/
-You can check with:
+
+You can check installed version by running below mentioned command in terminal:
 
 ```bash
 python --version
