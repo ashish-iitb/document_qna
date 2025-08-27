@@ -280,34 +280,6 @@ if __name__ == "__main__":
     perform_collection_loading(source_folder,vector_db_perists_dir,collection_name,chunk_size,chunk_overlap)
 
     chat_history = []  # stores conversation memory
-   
-    # Define prompts for each field
-    trustName = ""
-    trustee_name = ""
-    settlor_name = ""
-    appointor_name  = ""
-
-    trustName_prompt = "What is the full legal name of the trust?"
-
-    basicInformation_dateOfDeed = "On what date was the trust deed executed? (Format: YYYY-MM-DD)"
-    basicInformation_settledSum = "What is the settled sum (initial amount) for the trust?"
-    basicInformation_governingLaw = "Which jurisdiction’s law governs this trust?"
-
-    trustTerm_commencementDate = "What is the commencement date of the trust? (Format: YYYY-MM-DD)"
-    trustTerm_terminationDate = "What is the termination date or vesting day of the trust?"
-
-    parties_settlor_name = f"What is the full name of the settlor (person who sets up the trust) of trust {trustName}?"
-    parties_settlor_address = f"What is the residential or business address of the settlor of trust {settlor_name}?"
-    parties_settlor_restrictions = f"Are there any restrictions on the settlor {settlor_name} (e.g., cannot benefit from the trust) of trust {trustName}?"
-
-    parties_trustee_name = f"What is the full legal name of the trustee of trust {trustName}?"
-    parties_trustee_acn = f"What is the ACN (Australian Company Number) of the trustee {trustee_name} ?"
-    parties_trustee_address = f"What is the address of the trustee {trustee_name}?"
-    parties_trustee_director = f"Who is the director (or key contact person) of the trustee {trustee_name}?"
-
-    parties_appointor_name = f"What is the full name of the appointor of trust {trustName} ?"
-    parties_appointor_powers = f"What powers does the appointor {appointor_name} have? (e.g., remove trustees, appoint new ones, consent for actions, request auditor), provide powers as strings"
-    
     
 
     # get responses : 
