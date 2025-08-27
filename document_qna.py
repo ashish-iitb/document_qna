@@ -271,7 +271,7 @@ def perform_collection_loading(source_folder,vector_db_perists_dir,collection_na
 
 if __name__ == "__main__":
     source_folder = "./pdfs"
-    vector_db_perists_dir = "./chroma_db1"
+    vector_db_perists_dir = "./chroma_db"
     collection_name = "pdf_chunks"
     chunk_size=800  # character length of each chuncks
     chunk_overlap=100 # overlap between two consecutive chucks
