@@ -21,6 +21,7 @@ mkdir pdfs
 ### 3. Install Python 3.10 or above
 
 Make sure you have Python 3.11 installed.
+if not download it from https://www.python.org/downloads/
 You can check with:
 
 ```bash
