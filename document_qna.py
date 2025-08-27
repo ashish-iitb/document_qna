@@ -294,17 +294,17 @@ if __name__ == "__main__":
     trustTerm_commencementDate = "What is the commencement date of the trust? (Format: YYYY-MM-DD)"
     trustTerm_terminationDate = "What is the termination date or vesting day of the trust?"
 
-    parties_settlor_name = f"who is the settlor of the trust: {trustName} ?"
-    parties_settlor_address = f"What is the residential or business address of the settlor of trust {parties_settlor_name}?"
-    parties_settlor_restrictions = f"Are there any restrictions on the settlor {parties_settlor_name} (e.g., cannot benefit from the trust) of trust {trustName}?"
+    parties_settlor_name = "who is the settlor of the trust: {trustName} ?"
+    parties_settlor_address = "What is the residential or business address of the settlor of trust {parties_settlor_name}?"
+    parties_settlor_restrictions = "Are there any restrictions on the settlor {parties_settlor_name} (e.g., cannot benefit from the trust) of trust {trustName}?"
 
-    parties_trustee_name = f"who is the trustee of the trust : {trustName} ?"
-    parties_trustee_acn = f"What is the ACN (Australian Company Number) of the trustee {parties_trustee_name} ?"
-    parties_trustee_address = f"What is the address of the trustee {parties_trustee_name}?"
-    parties_trustee_director = f"Who is the director (or key contact person) of the trustee {parties_trustee_name}?"
+    parties_trustee_name = "who is the trustee of the trust : {trustName} ?"
+    parties_trustee_acn = "What is the ACN (Australian Company Number) of the trustee {parties_trustee_name} ?"
+    parties_trustee_address = "What is the address of the trustee {parties_trustee_name}?"
+    parties_trustee_director = "Who is the director (or key contact person) of the trustee {parties_trustee_name}?"
 
-    parties_appointor_name = f"Who is the the appointor of trust {trustName} , if more than one appointers are there then provide the answer in string having all the appointers seperated by commas, do not provide any suffix or prefix ?"
-    parties_appointor_powers = f"What powers does the appointor {parties_appointor_name} have? (e.g., remove trustees, appoint new ones, consent for actions, request auditor), provide the andwer in paragraph format without suffix, prefix or  any bullet points or sepcial character"
+    parties_appointor_name = "Who is the the appointor of trust {trustName} , if more than one appointers are there then provide the answer in string having all the appointers seperated by commas, do not provide any suffix or prefix ?"
+    parties_appointor_powers = "What powers does the appointor {parties_appointor_name} have? (e.g., remove trustees, appoint new ones, consent for actions, request auditor), provide the andwer in paragraph format without suffix, prefix or  any bullet points or sepcial character"
 
 
     ## Now call ask_question on each prompt (your required style)
