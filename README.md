@@ -18,7 +18,7 @@ Inside your repository directory, create a folder named `pdfs` and place all you
 ```bash
 mkdir pdfs
 ```
-### 3. Install Python 3.11
+### 3. Install Python 3.10 or above
 
 Make sure you have Python 3.11 installed.
 You can check with:
@@ -33,14 +33,14 @@ python3 --version
 ### 4.Create a Virtual Environment (Optional best practise)
 On macOS / Linux:
 ```bash
-python3.11 -m venv <environment_name_without_qoutes>  # this creates the virtual envirnment (takes upto 1 min)
+python3.11 -m venv your_environment_name_without_qoutes  # this creates the virtual envirnment (takes upto 1 min) replace placeholder with your choice of virtual env name 
 source <environment_name_without_qoutes>/bin/activate # activates the environment you can see the environment name in terminal
 ```
 
 On Windows (PowerShell):
 ```powershell
-python -m venv venv  # this creates the virtual envirnment (takes upto 1 min)
-venv\Scripts\activate  # activates the environment you can see the environment name in terminal
+python -m venv your_environment_name_without_qoutes  # this creates the virtual envirnment (takes upto 1 min) replace placeholder with your choice of virtual env name
+your_environment_name_without_qoutes\Scripts\activate  # activates the environment you can see the environment name in terminal
 ```
 To deactivate:
 ```bash
