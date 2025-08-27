@@ -183,8 +183,8 @@ def get_embedding(text: str, model: str = "text-embedding-3-small"):
 def query_collection(
     query: str,
     chat_history: list=  [],
-    collection_name: str = "pdf_chunks",
-    persist_dir: str = "./chroma_db",
+    collection_name: str = "pdf_chunks", 
+    persist_dir: str = "./chroma_db", # if after first run  , you want to add more pdfs or less pdfs then the first run , then rename this db name to avoid any mix up
     top_k: int = 5
 ):
     """
