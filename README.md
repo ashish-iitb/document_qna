@@ -51,7 +51,11 @@ deactivate
 pip install -r requirements.txt
 ```
 
-### 6. Run the Application
+### 6. Create and add .env file 
+Add all your environment variables/ secret keys in this file for local testing (never push the secret keys to remote branch)
+
+
+### 7. Run the Application
 ```bash
 python document_qna.py
 ```
