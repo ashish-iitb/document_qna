@@ -31,6 +31,7 @@ or
 python3 --version
 ```
 ### 4.Create a Virtual Environment (Optional best practise)
+suffix here should be your python version (i.e. python3.11)
 On macOS / Linux:
 ```bash
 python3.11 -m venv your_environment_name_without_qoutes  # this creates the virtual envirnment (takes upto 1 min) replace placeholder with your choice of virtual env name 
