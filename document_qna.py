@@ -284,10 +284,6 @@ if __name__ == "__main__":
 
     # get responses : 
     # Define prompts for each field
-    trustName = ""
-    trustee_name = ""
-    settlor_name = ""
-    appointor_name  = ""
 
     trustName_prompt = "What is the name of the trust, provide the exact name only?"
 
