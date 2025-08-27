@@ -283,7 +283,7 @@ if __name__ == "__main__":
     
 
     # get responses : 
-    # Define prompts for each field
+    # Modify below prompts to generate the best answer , more detailed prompt better results
 
     trustName_prompt = "What is the name of the trust, provide the exact name only?"
 
