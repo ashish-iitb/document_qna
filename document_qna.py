@@ -5,7 +5,7 @@ from openai import OpenAI
 import chromadb
 from dotenv import load_dotenv
 import json
-load_dotenv()
+load_dotenv() # this command will load/export all the environamnet variables stored in .env file
 
 # Initialize OpenAI client
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"),base_url = os.getenv("OPENAI_BASE_URL") )
